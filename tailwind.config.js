@@ -6,12 +6,19 @@ module.exports = {
     extend: {
       colors: {
         "background-color": "#F6F5F0",
+        "gold-brand": "#B0A27B",
+        "custom-brand": "#4F2C19",
       },
       fontFamily: {
         Estedad: ["Estedad-regular"],
-        EstedadMedium: ["Estedad-medium", "sans-serif"],
-        EstedadBold: ["Estedad-bold", "sans-serif"],
-        EstedadSemiBold: ["Estedad-semibold", "sans-serif"],
+        EstedadMedium: ["Estedad-medium"],
+        EstedadBold: ["Estedad-bold"],
+        EstedadSemiBold: ["Estedad-semibold"],
+        RokhLight: ["Rokh-light"],
+        RokhMedium: ["Rokh-medium"],
+        RokhNormal: ["Rokh-normal"],
+        RokhSemiBold: ["Rokh-semibold"],
+        RokhBold: ["Rokh-bold"],
       },
     },
   },

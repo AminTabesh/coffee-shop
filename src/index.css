@@ -24,3 +24,27 @@
     font-family: 'Estedad-semibold';
     src: url('./assets/fonts/Estedad-SemiBold.ttf') format('ttf');
 }
+
+@font-face {
+    font-family: 'Rokh-medium';
+    src: url('./assets/fonts/RokhFaNum-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Rokh-normal';
+    src: url('./assets/fonts/RokhFaNum-Normal.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Rokh-bold';
+    src: url('./assets/fonts/RokhFaNum-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Rokh-light';
+    src: url('./assets/fonts/RokhFaNum-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Rokh-semibold';
+    src: url('./assets/fonts/RokhFaNum-SemiBold.woff') format('woff');
+}

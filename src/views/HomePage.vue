@@ -1,5 +1,14 @@
 <template>
-  <div>home</div>
+  <div>
+    <LandingHeader />
+  </div>
 </template>
 
-<script></script>
+<script>
+import LandingHeader from "@/components/LandingHeader.vue";
+export default {
+  components: {
+    LandingHeader,
+  },
+};
+</script>
