@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center items-center w-full mt-20 flex-col gap-9">
+  <div class="flex justify-center items-center w-full mt-10 flex-col gap-9">
     <p class="font-RokhNormal text-7xl">
       <span>!</span
       ><span class="font-RokhBold text-7xl text-custom-brand">قهوت</span> یــادت
