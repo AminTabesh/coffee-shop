@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full h-24 flex flex-row-reverse justify-between px-20 pt-6 bg-gray-100 items-center font-Estedad"
+    class="w-full h-24 flex flex-row-reverse justify-between px-20 pt-6 items-center font-Estedad"
   >
     <div class="flex gap-5">
       <ul class="flex flex-row-reverse gap-4 items-center">
@@ -25,14 +25,18 @@
     </div>
 
     <div class="flex flex-row-reverse gap-4 items-center">
-      <button class=" p-2 border-2 rounded-full">
+      <button class="p-2 border-2 rounded-full">
         <Icon icon="mdi-light:magnify" class="text-3xl" />
       </button>
-      <button class=" p-1 border-2 rounded-full flex items-center flex-row-reverse px-5 py-2 gap-2">
+      <button
+        class="p-1 border-2 rounded-full flex items-center flex-row-reverse px-5 py-2 gap-2"
+      >
         <Icon icon="mdi-light:account" class="text-3xl font-thin" />
         <span>ورود / ثبت نام</span>
       </button>
-      <button class="bg-gold-brand text-white p-1 border rounded-full flex items-center flex-row-reverse px-5 py-2 gap-2">
+      <button
+        class="bg-gold-brand text-white p-1 border rounded-full flex items-center flex-row-reverse px-5 py-2 gap-2"
+      >
         <Icon icon="mdi-light:cart" class="text-3xl font-thin" />
         <span dir="rtl">۰ تومان</span>
       </button>
