@@ -1,1 +1,34 @@
-{}
+{
+  "products": {
+    "coffes": [
+      {
+        "name": "دانه قهوه اسپرسو جیورنو بن مانو",
+        "basePrice": 168000,
+        "offPercent": 0,
+        "imgSrc": "1.webp"
+      },
+      {
+        "name": "دانه قهوه اسپرسو ویتالی (بن مانو )",
+        "basePrice": 138000,
+        "offPercent": 7,
+        "imgSrc": "2.webp"
+      },
+      {
+        "name": "دانه قهوه اسپرسو ویتالی (بن مانو )",
+        "basePrice": 138000,
+        "offPercent": 7,
+        "imgSrc": "3.webp"
+      },
+      {
+        "name": "دانه قهوه اسپرسو ویتالی (بن مانو )",
+        "basePrice": 138000,
+        "offPercent": 7,
+        "imgSrc": "4.webp"
+      }
+    ],
+    "powders": [],
+    "dripBacks": [],
+    "syrups": [],
+    "accessories": []
+  }
+}

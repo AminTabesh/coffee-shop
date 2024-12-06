@@ -6,7 +6,8 @@
     <div class="w-10/12 mx-auto">
       <TitleShow
         title="دسته بندی محصولات"
-        subtitle="بهترین و باکیفیت ترین برند ها ، چون شما لایق بهترین ها هستید"
+        subtitle="بهترین و باکیفیت ترین برند
+      ها ، چون شما لایق بهترین ها هستید"
         :hasLine="true"
       />
 
@@ -19,6 +20,11 @@
         />
       </div>
     </div>
+    <NewestProducts />
+    <div class="w-10/12 mx-auto">
+      <BrandsShow class="mt-16" />
+    </div>
+    <OffProducts />
   </div>
 </template>
 
@@ -27,6 +33,9 @@ import LandingHeader from "@/components/LandingHeader.vue";
 import CustomersCount from "@/components/CustomersCount.vue";
 import TitleShow from "@/components/TitleShow.vue";
 import SortingBtn from "@/components/SortingBtn.vue";
+import NewestProducts from "@/components/NewestProducts.vue";
+import BrandsShow from '@/components/BrandsShow.vue';
+import OffProducts from "@/components/OffProducts.vue";
 
 export default {
   components: {
@@ -34,6 +43,9 @@ export default {
     CustomersCount,
     TitleShow,
     SortingBtn,
+    NewestProducts,
+    BrandsShow,
+    OffProducts
   },
   data() {
     return {
@@ -61,5 +73,8 @@ export default {
       ].reverse(),
     };
   },
+  mounted(){
+    this.$store.dispatch('fetchProducts')
+  }
 };
 </script>

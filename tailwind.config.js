@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       colors: {
         "background-color": "#F6F5F0",
+        "background-color-darker": "#E2DFD3",
         "gold-brand": "#B0A27B",
         "custom-brand": "#4F2C19",
         "button-color": "#E2DFD5",
