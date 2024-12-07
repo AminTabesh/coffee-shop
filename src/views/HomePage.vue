@@ -25,6 +25,9 @@
       <BrandsShow class="mt-16" />
     </div>
     <OffProducts />
+    <div class="w-10/12 mx-auto">
+      <AboutUs />
+    </div>
   </div>
 </template>
 
@@ -34,8 +37,9 @@ import CustomersCount from "@/components/CustomersCount.vue";
 import TitleShow from "@/components/TitleShow.vue";
 import SortingBtn from "@/components/SortingBtn.vue";
 import NewestProducts from "@/components/NewestProducts.vue";
-import BrandsShow from '@/components/BrandsShow.vue';
+import BrandsShow from "@/components/BrandsShow.vue";
 import OffProducts from "@/components/OffProducts.vue";
+import AboutUs from "@/components/AboutUs.vue";
 
 export default {
   components: {
@@ -45,7 +49,8 @@ export default {
     SortingBtn,
     NewestProducts,
     BrandsShow,
-    OffProducts
+    OffProducts,
+    AboutUs,
   },
   data() {
     return {
@@ -73,8 +78,8 @@ export default {
       ].reverse(),
     };
   },
-  mounted(){
-    this.$store.dispatch('fetchProducts')
-  }
+  mounted() {
+    this.$store.dispatch("fetchProducts");
+  },
 };
 </script>
