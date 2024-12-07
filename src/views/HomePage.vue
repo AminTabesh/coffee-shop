@@ -1,6 +1,5 @@
 <template>
-  <!-- TODO: Adjust the padding in the end -->
-  <div class="pb-36 font-RokhMedium">
+  <div class=" font-RokhMedium">
     <LandingHeader />
     <CustomersCount />
     <div class="w-10/12 mx-auto">
@@ -29,6 +28,10 @@
       <AboutUs />
     </div>
     <BlogPosts />
+    <div class="w-10/12 mx-auto">
+      <InstaPromo />
+    </div>
+    <FooterComponent />
   </div>
 </template>
 
@@ -42,6 +45,8 @@ import BrandsShow from "@/components/BrandsShow.vue";
 import OffProducts from "@/components/OffProducts.vue";
 import AboutUs from "@/components/AboutUs.vue";
 import BlogPosts from "@/components/BlogPosts.vue";
+import InstaPromo from "@/components/InstaPromo.vue";
+import FooterComponent from '@/components/FooterComponent.vue';
 
 export default {
   components: {
@@ -54,6 +59,8 @@ export default {
     OffProducts,
     AboutUs,
     BlogPosts,
+    InstaPromo,
+    FooterComponent
   },
   data() {
     return {
