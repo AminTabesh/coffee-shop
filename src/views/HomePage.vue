@@ -28,6 +28,7 @@
     <div class="w-10/12 mx-auto">
       <AboutUs />
     </div>
+    <BlogPosts />
   </div>
 </template>
 
@@ -40,6 +41,7 @@ import NewestProducts from "@/components/NewestProducts.vue";
 import BrandsShow from "@/components/BrandsShow.vue";
 import OffProducts from "@/components/OffProducts.vue";
 import AboutUs from "@/components/AboutUs.vue";
+import BlogPosts from "@/components/BlogPosts.vue";
 
 export default {
   components: {
@@ -51,6 +53,7 @@ export default {
     BrandsShow,
     OffProducts,
     AboutUs,
+    BlogPosts,
   },
   data() {
     return {
@@ -80,6 +83,7 @@ export default {
   },
   mounted() {
     this.$store.dispatch("fetchProducts");
+    this.$store.dispatch("fetchBlogPosts");
   },
 };
 </script>

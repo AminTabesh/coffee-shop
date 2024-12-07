@@ -2,7 +2,11 @@
   <div class="flex flex-col items-center w-full gap-4">
     <img src="@/assets/title-coffee.png" alt="" />
     <div class="flex w-full items-center gap-6">
-      <div v-if="hasLine" class="w-full h-[0.1rem] bg-gray-200"></div>
+      <div
+        v-if="hasLine"
+        class="w-full h-[0.1rem]"
+        :style="{ backgroundColor: lineColor }"
+      ></div>
       <p
         :class="[
           { 'font-RokhBold': isBold, 'font-RokhSemiBold': !isBold },
@@ -12,7 +16,11 @@
       >
         {{ title }}
       </p>
-      <div v-if="hasLine" class="w-full h-[0.1rem] bg-gray-200"></div>
+      <div
+        v-if="hasLine"
+        class="w-full h-[0.1rem]"
+        :style="{ backgroundColor: lineColor }"
+      ></div>
     </div>
     <p v-show="subtitle" class="font-EstedadMedium text-sm">{{ subtitle }}</p>
   </div>
@@ -40,6 +48,10 @@ export default {
     isBold: {
       type: Boolean,
       default: true,
+    },
+    lineColor: {
+      type: String,
+      default: "#E5E7EB",
     },
   },
 };
